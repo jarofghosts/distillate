@@ -1,5 +1,5 @@
 (ns distillate.handler
-  (:require [distillate.db :as db]
+  (:require [distillate.core :as distillate]
             [compojure.core :refer :all]
             [compojure.handler :as handler]
             [compojure.route :as route]))
